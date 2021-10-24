@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A GitHub Action that processes test results, and manages issues for flaky tests.",
   "main": "build/src/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "mocha build/src",
     "lint": "gts lint",
